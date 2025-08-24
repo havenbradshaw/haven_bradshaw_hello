@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class AppLauncher {
 
     /**
-     * The main entry point for the HelloWorld application.
-     * Prompts the user for two students' names and ages, then demonstrates the HelloWorld class methods.
+     * Prompts the user for two students' names and ages, then demonstrates all of the HelloWorld class methods.
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

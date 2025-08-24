@@ -1,5 +1,5 @@
 /**
- * Represents a greeter with a name and age.
+ * A simple class that greets users by name and introduces them by age.
  */
 public class HelloWorld {
     String name; 
@@ -7,8 +7,7 @@ public class HelloWorld {
 
     /**
      * Constructs a HelloWorld object with the given name.
-     * @param name The name of the person
-     */
+     **/
     public HelloWorld(String name, int age) { 
         this.name = name; 
         this.age = age;
@@ -21,10 +20,8 @@ public class HelloWorld {
         System.out.println("Hello, " + name + "!"); 
     } 
 
-    // Overloaded greet method to allow a custom message
     /**
-     * Greets the user with a custom message.
-     * @param message The custom greeting message
+     * Overloads greet method to allow a custom message
      */
     public void greet(String message) {
         System.out.println(message);
@@ -32,9 +29,7 @@ public class HelloWorld {
 
     /**
      * Sets the name and age for this greeter.
-     * @param name The name to set
-     * @param age The age to set
-     * @return The age that was set
+     * Returns the age that was set
      */
     public int setAge(int age) {
         this.age = age;
@@ -42,8 +37,6 @@ public class HelloWorld {
     }
     /**
      * Introduces the greeter by name and age.
-     * @param name The name to introduce
-     * @param age The age to introduce
      */
     public void introduce() {
         System.out.println("My name is " + name + " and I am " + age + " years old.");
